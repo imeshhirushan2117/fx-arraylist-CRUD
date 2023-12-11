@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E8F0FE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.acpt.fx1.controller.VehicleDeletedController">
+   <children>
+      <TextField fx:id="txtId" layoutX="69.0" layoutY="72.0" prefHeight="32.0" prefWidth="484.0" promptText="Enter ID" style="-fx-border-color: #1877F2;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <Separator layoutX="135.0" layoutY="23.0" prefHeight="0.0" prefWidth="433.0" style="-fx-background-color: #1877F2;" />
+      <Button layoutX="180.0" layoutY="286.0" mnemonicParsing="false" onAction="#back" prefHeight="29.0" prefWidth="225.0" style="-fx-background-color: #2c3e50; -fx-background-radius: 10;" text="Back" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text layoutX="8.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Deleted" wrappingWidth="136.13671875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="58.0" layoutY="168.0" mnemonicParsing="false" onAction="#deleted" prefHeight="29.0" prefWidth="225.0" style="-fx-background-color: #FA3E3E; -fx-background-radius: 10;" text="Deleted" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="319.0" layoutY="168.0" mnemonicParsing="false" onAction="#getAll" prefHeight="29.0" prefWidth="225.0" style="-fx-background-color: #16a085; -fx-background-radius: 10;" text="Get All" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
